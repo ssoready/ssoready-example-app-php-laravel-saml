@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "641be8603529b7dcf24ce5178817e62a",
+    "content-hash": "1c4d91351f393dfa65fa9fb55afa7ece",
     "packages": [
         {
             "name": "brick/math",
@@ -3117,6 +3117,49 @@
                 }
             ],
             "time": "2024-04-27T21:32:50+00:00"
+        },
+        {
+            "name": "ssoready/ssoready",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ssoready/ssoready-php.git",
+                "reference": "6efa696699424600dce46eacc2c9afcac91854d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ssoready/ssoready-php/zipball/6efa696699424600dce46eacc2c9afcac91854d9",
+                "reference": "6efa696699424600dce46eacc2c9afcac91854d9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^7.9",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "3.5.0",
+                "phpstan/phpstan": "^1.12",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SSOReady\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "SSOReady PHP Library",
+            "keywords": [
+                "api",
+                "sdk",
+                "ssoready"
+            ],
+            "support": {
+                "issues": "https://github.com/ssoready/ssoready-php/issues",
+                "source": "https://github.com/ssoready/ssoready-php/tree/0.1.2"
+            },
+            "time": "2024-11-18T23:14:39+00:00"
         },
         {
             "name": "symfony/clock",
